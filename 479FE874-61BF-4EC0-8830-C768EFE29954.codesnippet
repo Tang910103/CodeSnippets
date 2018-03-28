@@ -14,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>479FE874-61BF-4EC0-8830-C768EFE29954</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>@property (nonatomic, copy) void (^&lt;#block#&gt;)(&lt;#void#&gt;);</string>
 	<key>IDECodeSnippetUserSnippet</key>
