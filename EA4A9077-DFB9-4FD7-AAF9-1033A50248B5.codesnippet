@@ -6,17 +6,16 @@
 	<string>pragmatic mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#描述#&gt;
-</string>
+	<string>#pragma mark &lt;#描述#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EA4A9077-DFB9-4FD7-AAF9-1033A50248B5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>#pragma mark &lt;#描述#&gt;</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
