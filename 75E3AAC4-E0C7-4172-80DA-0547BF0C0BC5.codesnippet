@@ -10,9 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)&lt;#函数名#&gt; {
-
     &lt;#代码块#&gt;
-
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
