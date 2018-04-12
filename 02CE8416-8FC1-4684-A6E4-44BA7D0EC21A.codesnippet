@@ -9,26 +9,26 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#类名#&gt; *)defaultManager
+	<string>+ (&lt;#类名#&gt; *)shareObject
 {
-    static &lt;#类名#&gt; *manager = nil;
+    static &lt;#类名#&gt; *shareObject = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
-        manager = [[super allocWithZone:NULL] init];
+        shareObject = [[super allocWithZone:NULL] init];
     });
-    return manager;
+    return shareObject;
 }
 + (instancetype)allocWithZone:(struct _NSZone *)zone
 {
-    return [&lt;#类名#&gt; defaultManager];
+    return [&lt;#类名#&gt; shareObject];
 }
 -(id)copyWithZone:(NSZone *)zone
 {
-    return [&lt;#类名#&gt; defaultManager];
+    return [&lt;#类名#&gt; shareObject];
 }
 -(id)mutableCopyWithZone:(NSZone *)zone
 {
-    return [&lt;#类名#&gt; defaultManager];
+    return [&lt;#类名#&gt; shareObject];
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
