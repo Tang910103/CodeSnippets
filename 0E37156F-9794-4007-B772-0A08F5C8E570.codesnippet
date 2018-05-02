@@ -3,20 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragma mark - private</string>
+	<string>custom log</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark --------------- private
+	<string>// 日志输出
+#ifdef DEBUG
+#define DLog(...) NSLog(@"📍行号：%d",__LINE__);\
+        printf("📍方法：%s \n",__PRETTY_FUNCTION__); \
+        printf("📍文件路径：%s \n",__FILE__);\
+        printf("📍%s \n\n", [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#else
+#define DLog(...) do { } while (0)
+#endif
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1AA4ECBC-D3F4-49A1-BE4C-A5E051E5E9F9</string>
+	<string>0E37156F-9794-4007-B772-0A08F5C8E570</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#pragma mark - private</string>
+	<string>// 日志输出</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

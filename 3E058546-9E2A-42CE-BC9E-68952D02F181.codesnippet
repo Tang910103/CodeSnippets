@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - event response
+	<string>#pragma mark ------------ event response
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3E058546-9E2A-42CE-BC9E-68952D02F181</string>
