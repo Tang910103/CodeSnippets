@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dlog</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 日志输出
+#ifdef DEBUG
+#define DLog(...) NSLog(@"📍行号：%d",__LINE__);\
+printf("📍方法：%s \n",__PRETTY_FUNCTION__); \
+printf("📍文件路径：%s \n",__FILE__);\
+printf("📍%s \n\n", [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#else
+#define DLog(...) do { } while (0)
+#endif
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>75779378-4DEE-4542-AE1E-067FD7672303</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>自定义日志输出</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
