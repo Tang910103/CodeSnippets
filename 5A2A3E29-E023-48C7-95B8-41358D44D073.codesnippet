@@ -21,7 +21,7 @@
         _tableView.estimatedSectionFooterHeight = 0;
         _tableView.tableFooterView = [[UIView alloc] init];
         
-        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:[UITableViewCell classString]];
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:&lt;#identifier#&gt;];
     }
     return _tableView;
 }

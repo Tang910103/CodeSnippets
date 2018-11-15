@@ -28,6 +28,6 @@ printf("📍%s \n\n", [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
