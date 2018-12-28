@@ -6,7 +6,7 @@
 	<string>functon </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>+ (void)&lt;#函数名#&gt;;</string>
