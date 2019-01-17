@@ -9,8 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString *&lt;#属性名#&gt;;
-</string>
+	<string>/// &lt;#属性描述#&gt;
+@property (nonatomic, copy) NSString *&lt;#属性名#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AB0F01D0-F92E-4612-917A-8766B89CD330</string>
 	<key>IDECodeSnippetLanguage</key>

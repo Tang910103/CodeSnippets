@@ -22,11 +22,11 @@
 {
     return [&lt;#类名#&gt; shareObject];
 }
--(id)copyWithZone:(NSZone *)zone
+- (id)copyWithZone:(NSZone *)zone
 {
     return [&lt;#类名#&gt; shareObject];
 }
--(id)mutableCopyWithZone:(NSZone *)zone
+- (id)mutableCopyWithZone:(NSZone *)zone
 {
     return [&lt;#类名#&gt; shareObject];
 }

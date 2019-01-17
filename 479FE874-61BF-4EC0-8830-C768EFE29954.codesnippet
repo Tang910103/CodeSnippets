@@ -9,8 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) void (^&lt;#block#&gt;)(&lt;#void#&gt;);
-</string>
+	<string>/// &lt;#属性描述#&gt;
+@property (nonatomic, copy) void (^&lt;#block#&gt;)(&lt;#void#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>479FE874-61BF-4EC0-8830-C768EFE29954</string>
 	<key>IDECodeSnippetLanguage</key>
