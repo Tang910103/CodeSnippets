@@ -3,21 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weakobj</string>
+	<string>pragma mark implementation</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define weakObj(self) __weak typeof(self) weak_##self = self;
-#define strongObj(self) __strong typeof(self) self = weak_##self;
-</string>
+	<string>#pragma mark --------------- system methods
+
+#pragma mark --------------- public methods
+
+#pragma mark --------------- delegate methods
+
+#pragma mark --------------- event response
+
+#pragma mark --------------- private methods
+
+#pragma mark --------------- property getter
+
+#pragma mark --------------- property setter</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E17BCCF9-9B1C-4F49-B475-4BD7C80E34E4</string>
+	<string>60ECF6FC-C65E-4A40-939E-A58E184AB63E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakObj(self) __weak typeof(self) weak_##self = self;</string>
+	<string>pragma mark implementation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

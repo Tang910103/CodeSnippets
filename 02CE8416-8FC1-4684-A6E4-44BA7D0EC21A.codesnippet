@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>defaultManager</string>
+	<string>shareObject</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#类名#&gt; *)shareObject
+	<string>#define MY_CLASS &lt;#Class name#&gt;
+
++ (MY_CLASS *)shareObject
 {
-    static &lt;#类名#&gt; *shareObject = nil;
+    static MY_CLASS *shareObject = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
         shareObject = [[super allocWithZone:NULL] init];
@@ -20,15 +22,15 @@
 }
 + (instancetype)allocWithZone:(struct _NSZone *)zone
 {
-    return [&lt;#类名#&gt; shareObject];
+    return [MY_CLASS shareObject];
 }
 - (id)copyWithZone:(NSZone *)zone
 {
-    return [&lt;#类名#&gt; shareObject];
+    return [MY_CLASS shareObject];
 }
 - (id)mutableCopyWithZone:(NSZone *)zone
 {
-    return [&lt;#类名#&gt; shareObject];
+    return [MY_CLASS shareObject];
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -36,7 +38,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>+ (&lt;#类名#&gt; *)defaultManager  单例</string>
+	<string>+ (&lt;#类名#&gt; *)shareObject  单例</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
