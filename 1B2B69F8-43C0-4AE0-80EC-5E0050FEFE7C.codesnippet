@@ -9,11 +9,21 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark ------------ propertys
+	<string>#pragma mark --------------- Propertys
+/// ---------------------------------------------------
+/// @name Propertys
+/// ---------------------------------------------------
 
-#pragma mark ------------ class methods
+#pragma mark ------------ Class Methods
+/// ---------------------------------------------------
+/// @name Class Methods
+/// ---------------------------------------------------
 
-#pragma mark ------------ instance methods</string>
+#pragma mark ------------ Instance Methods
+/// ---------------------------------------------------
+/// @name Instance Methods
+/// ---------------------------------------------------
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1B2B69F8-43C0-4AE0-80EC-5E0050FEFE7C</string>
 	<key>IDECodeSnippetLanguage</key>
